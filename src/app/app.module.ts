@@ -8,10 +8,10 @@ import { About1Component } from './about1/about1.component';
 import { BuyComponent } from './buy/buy.component';
 import { LogoComponent } from './logo/logo.component';
 import { PaymentComponent } from './payment/payment.component';
-import { Payment1Component } from './payment1/payment1.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SearchComponent } from './search/search.component';
 
 
 const appRoutes: Routes = [
@@ -21,9 +21,9 @@ const appRoutes: Routes = [
   { path: 'buy',      component: BuyComponent },
   { path: 'logo',      component: LogoComponent },
   { path: 'payment',      component: PaymentComponent },
-  { path: 'payment1',      component: Payment1Component },
   { path: 'login',      component: LoginComponent },
   { path: 'register',      component: RegisterComponent },
+  { path: 'search',      component: SearchComponent },
 ];
 
 @NgModule({
@@ -35,9 +35,9 @@ const appRoutes: Routes = [
     BuyComponent,
     LogoComponent,
     PaymentComponent,
-    Payment1Component,
     LoginComponent,
     RegisterComponent,
+    SearchComponent,
   ],
  imports: [
     BrowserModule,

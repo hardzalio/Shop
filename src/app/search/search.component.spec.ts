@@ -1,20 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { SearchComponent } from './search.component';
 
-import { Payment1Component } from './payment1.component';
-
-describe('Payment1Component', () => {
-  let component: Payment1Component;
-  let fixture: ComponentFixture<Payment1Component>;
+describe('PaymentComponent', () => {
+  let component: SearchComponent;
+  let fixture: ComponentFixture<SearchComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Payment1Component ]
+      declarations: [ SearchComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Payment1Component);
+    fixture = TestBed.createComponent(SearchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
@@ -23,3 +22,4 @@ describe('Payment1Component', () => {
     expect(component).toBeTruthy();
   });
 });
+
